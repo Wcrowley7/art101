@@ -4,6 +4,23 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #1e00ff;
+    background-color: #ffffff;
+  }
+h1 {
+  color:rgb(250, 250, 250);
+  font-size:300%
+  }
+.p {
+ font-family:'Times New Roman', Times, serif
+  text: indent 20px;
+  margin-left: 10px;
+}
+#content {
+ background-color: rgb(255, 0, 0);
+ width: 750px
+ font-size: x-large;
+ border: solid 5px blue;
+ margin:10px;
+ padding: 10px;
   }
