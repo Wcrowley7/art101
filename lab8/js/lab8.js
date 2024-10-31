@@ -24,3 +24,4 @@ var result = array.map(function(x) {
 })
 
 console.log("Squareroot of array:", result);
+ 
