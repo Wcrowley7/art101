@@ -1,32 +1,70 @@
-.minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #0c00f5;
-  background-color: #ffffff;
+body {
+  background-color: rgb(24, 58, 31);
 }
-h1 {
-  color:rgb(250, 250, 250);
-  font-size:300%
-  }
-.p {
- font-family:'Times New Roman', Times, serif
-  text: indent 20px;
-  margin-left: 10px;
-}
-#content {
- background-color: rgb(255, 115, 0);
- width: 750px
- font-size: x-large;
- border: solid 5px blue;
- margin:10px;
- padding: 10px;
-  }
-  #my-portrait{width: 350px;
-  }
 
-  .special {
-    background-color: rgb(110, 110, 239);
-    border: dotted 50px rgb(255, 234, 0);
-    color: rgb(237, 43, 182);
-    font-weight: bold;
+.sectionbox {
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+h1 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  letter-spacing: 10px;
+  text-align: center;
+  font-size: 50px;
+  color:rgb(254, 250, 5);
+}
+
+#challenge, #problems, #results {
+  border: rgb(255, 251, 0) solid 15px;
+  width: 45%;
+  background-color: rgba(229, 255, 0, 0.728);
+  padding: 10px;
+  float: left;
+  margin: 5px;
+}
+
+h2, p {
+  color:rgb(246, 255, 0);
+}
+
+.special h2 {
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:rgb(68, 13, 13);
+}
+
+.special p {
+  font-style: bold;
+  color: rgb(68, 13, 13);
+}
+
+#challenge.special {
+  border: rgb(79, 9, 255) solid 15px;
+  width: 45%;
+  background-color: rgba(202, 111, 89, 0.728);
+  padding: 10px;
+  float: left;
+  margin: 5px;
+}
+
+#problems.special {
+  border: rgb(58, 28, 255) solid 15px;
+  width: 45%;
+  background-color: rgba(202, 111, 89, 0.728);
+  padding: 10px;
+  float: left;
+  margin: 5px;
+}
+
+#results.special {
+  border: rgb(111, 0, 255) solid 15px;
+  width: 45%;
+  background-color: rgba(202, 111, 89, 0.728);
+  padding: 10px;
+  float: left;
+  margin: 5px;
 }
