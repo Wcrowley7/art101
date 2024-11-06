@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(106, 157, 116);
+  background-color: rgb(24, 58, 31);
 }
 
 .sectionbox {
@@ -15,20 +15,20 @@ h1 {
   letter-spacing: 10px;
   text-align: center;
   font-size: 50px;
-  color:rgb(254, 250, 5);
+  color:rgb(151, 246, 163);
 }
 
 #challenge, #problems, #results {
-  border: rgb(255, 251, 0) solid 15px;
+  border: rgb(93, 186, 94) solid 15px;
   width: 45%;
-  background-color: rgba(229, 255, 0, 0.728);
+  background-color: rgba(88, 169, 99, 0.728);
   padding: 10px;
   float: left;
   margin: 5px;
 }
 
 h2, p {
-  color:rgb(246, 255, 0);
+  color:rgb(151, 246, 163);
 }
 
 .special h2 {
@@ -43,7 +43,7 @@ h2, p {
 }
 
 #challenge.special {
-  border: rgb(79, 9, 255) solid 15px;
+  border: rgb(174, 61, 36) solid 15px;
   width: 45%;
   background-color: rgba(202, 111, 89, 0.728);
   padding: 10px;
@@ -52,7 +52,7 @@ h2, p {
 }
 
 #problems.special {
-  border: rgb(58, 28, 255) solid 15px;
+  border: rgb(174, 61, 36) solid 15px;
   width: 45%;
   background-color: rgba(202, 111, 89, 0.728);
   padding: 10px;
@@ -60,8 +60,8 @@ h2, p {
   margin: 5px;
 }
 
-#results.special {
-  border: rgb(111, 0, 255) solid 15px;
+#Results.special {
+  border: rgb(174, 61, 36) solid 15px;
   width: 45%;
   background-color: rgba(202, 111, 89, 0.728);
   padding: 10px;

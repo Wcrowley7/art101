@@ -6,7 +6,7 @@
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");
 
 $("#button-challenge").click(function(){
-    $(this).parent().toggleClass("special");
+    $("#challenge").toggleClass("special");
 
 });
 
@@ -19,8 +19,9 @@ $("#problems").toggleClass("special");
 });
 
 
-$("#Results").append("<button id='button-results'>Make Special</button>");
+$("#Results").append("<button id='button-Results'>Make Special</button>");
 
 $("#button-Results").click(function(){
 $("#Results").toggleClass("special");
+
 });
