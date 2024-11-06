@@ -19,8 +19,8 @@ $("#problems").toggleClass("special");
 });
 
 
-$("#results").append("<button id='button-results'>Make Special</button>");
+$("#Results").append("<button id='button-results'>Make Special</button>");
 
-$("#button-results").click(function(){
-$("#results").toggleClass("special");
+$("#button-Results").click(function(){
+$("#Results").toggleClass("special");
 });
