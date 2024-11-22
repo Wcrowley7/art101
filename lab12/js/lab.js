@@ -3,21 +3,29 @@
 // Date: November 11th, 2024
 // License: Public Domain
 
-function FizzBuzz() {
+function sortingHatLength(str) {
 
-  for (i = 1; i <= 100; i++) {
-    // check for multiple of 15 first
-    if (i % 15 == 0) {
-      console.log("FizzBuzz");
-    } else if (i % 3 == 0) {
-      console.log("Fizz");
-    } else if (i % 5 == 0) {
-      console.log("Buzz");
-    } else if (i % 7 == 0) {
-      console.log("Boom");
-    } else {
-      console.log(i);
-    }
+  len = str.length;
+  let mod = len % 4;
+  if (mod == 0) {
+   return "Gryffindor"
   }
-  
+
+  else if (mod == 1) {
+   return "Ravenclaw"
+  }
+
+  else if (mod == 2) {
+   return "Slytherin"
+  }
+
+ else if (mod == 3) {
+    return "Hufflepuff"
+  }
 }
+
+$("#button").click(function() {
+  var name = $("#input").val()
+  var house = sortingHatLength(name);
+  $("#output").html("<h1>" + house + "</h1>")
+})
