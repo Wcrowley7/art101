@@ -6,16 +6,17 @@
 function FizzBuzz() {
 
   for (let i = 1; i <= 200; i++) {
-    // check for multiple of 15 first
-    if (i % 15 == 0) {
-      console.log("FizzBuzz");
-    } else if (i % 3 == 0) {
-      console.log("Fizz");
-    } else if (i % 5 == 0) {
-      console.log("Buzz");
-    } else if (i % 7 == 0) {
-      console.log("Boom");
-    }  if (str == '') {
+    let str = '';
+    if (i % 3 == 0) {
+      str += "Fizz";
+    } 
+    if (i % 5 == 0) {
+      str += "Buzz";
+    } 
+    if (i % 7 == 0) {
+      str += "Boom";
+    }  
+    if (str == '') {
    str += i;
     }  
     else {
@@ -23,6 +24,5 @@ function FizzBuzz() {
     }
     $("output").append("<p>" + str + "</p>")
   }
-  
 }
 FizzBuzz();
