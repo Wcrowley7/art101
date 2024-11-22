@@ -41,8 +41,8 @@ h2, p {
   font-style: bold;
   color: rgb(68, 13, 13);
 }
-#my-portrait{width: 350px;
-}
+#my-portrait{width: 300px;
+} 
 
 .text p {
   display: inline-block;
